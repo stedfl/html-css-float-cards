@@ -5,10 +5,54 @@
 }
 
 body {
-  font-family: font-family: 'Fredoka', sans-serif;
+  font-family: 'Fredoka',sans-serif;
+  background-color: color:#fffffe;
 }
 
 .container {
   width: 80%;
   margin: auto;
 }
+
+.title-description h1 {
+  text-align: center;
+  font-size: 40px ;
+  font-weight: bold;
+  color: #e53170
+}
+
+.title-description p {
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.row .card-box {
+  background-color: black;
+  color: #fffffe;
+  box-shadow: 0 0 10px;
+  height: 100px;
+  width: 400px;
+}
+
+.card-box img {
+  height: 100%;
+}
+
+.card-box .text-card {
+  display: inline-block;
+}
+
+.text-card h3, .text-card p {
+  padding: 5px;
+}
+
+.text-card h3 {
+  font-weight: bold;
+}
+
+.text-card p.mail {
+  color: #51c6e5; ;
+}
+
+
+
