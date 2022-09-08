@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: font-family: 'Fredoka', sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
