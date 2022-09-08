@@ -32,6 +32,7 @@ body {
   box-shadow: 0 0 10px;
   height: 100px;
   width: 400px;
+  float: left;
 }
 
 .card-box img {
@@ -40,6 +41,7 @@ body {
 
 .card-box .text-card {
   display: inline-block;
+  height: 100%;
 }
 
 .text-card h3, .text-card p {
@@ -51,7 +53,7 @@ body {
 }
 
 .text-card p.mail {
-  color: #51c6e5; ;
+  color:#6ecbdd;
 }
 
 
