@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 75%;
   margin: auto;
 }
 
@@ -26,13 +26,24 @@ body {
   padding-top: 30px;
 }
 
+.photo-cards .row {
+  margin-bottom: 50px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .row .card-box {
   background-color: black;
   color: #fffffe;
   box-shadow: 0 0 10px;
   height: 100px;
-  width: 400px;
+  width: 300px;
   float: left;
+  margin-left: 30px;
 }
 
 .card-box img {
