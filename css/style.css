@@ -12,7 +12,13 @@ body {
 .container {
   width: 75%;
   margin: auto;
-  border: 1px solid black;
+  max-width: 1200px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .title-description h1 {
@@ -25,24 +31,11 @@ body {
 
 .title-description p {
   padding-bottom: 50px;
-  text-align: justify;
-}
-
-.title-description span {
   text-align: center;
-  display: block;
-
 }
 
 .photo-cards .row {
   margin-bottom: 50px;
-  width: 100;
-}
-
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .row .card-box {
@@ -51,12 +44,9 @@ body {
   color: #fffffe;
   box-shadow: 0 0 5px 5px lightgray;
   height: 100px;
-  width: calc(100% / 3);
+  width: calc(100% / 3 - 30px);
+  margin: 0 15px;
 }
-
-/* .row .card-box.center {
-  margin: 0 30px;
-} */
 
 .card-box img {
   height: 100%;
@@ -65,7 +55,7 @@ body {
 
 .card-box .text-card {
   float: left;
-  padding-left: 20px;
+  padding: 10px 20px;
 }
 
 .text-card h3, .text-card p {
