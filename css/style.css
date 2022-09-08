@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Fredoka',sans-serif;
-  background-color: color:#fffffe;
+  background-color: #fffffe;
 }
 
 .container {
@@ -28,6 +28,7 @@ body {
 
 .photo-cards .row {
   margin-bottom: 50px;
+  width: 100;
 }
 
 .clearfix::after {
@@ -39,9 +40,9 @@ body {
 .row .card-box {
   background-color: black;
   color: #fffffe;
-  box-shadow: 0 0 10px;
+  box-shadow: 0 0 5px 5px lightgray;
   height: 100px;
-  width: 300px;
+  width: calc(100% / 3 - 90px);
   float: left;
   margin-left: 30px;
 }
