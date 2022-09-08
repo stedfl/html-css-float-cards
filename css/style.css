@@ -38,12 +38,12 @@ body {
 }
 
 .row .card-box {
+  float: left;
   background-color: black;
   color: #fffffe;
   box-shadow: 0 0 5px 5px lightgray;
   height: 100px;
   width: calc(100% / 3 - 90px);
-  float: left;
   margin-left: 30px;
 }
 
@@ -53,7 +53,7 @@ body {
 
 .card-box .text-card {
   display: inline-block;
-  height: 100%;
+  padding: 5px;
 }
 
 .text-card h3, .text-card p {
